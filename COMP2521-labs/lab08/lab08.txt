@@ -1,0 +1,721 @@
+Scroll down to get to the disccusion and lab answers
+
+
+//////////////////////////////////////////////
+Insert and Search
+NO_REBALANCE
+unsorted
+data             height            time           
+10                  5               0
+100                 11              0
+200                 16              0
+300                 19              0
+400                 19              0
+500                 19              0
+600                 19              0
+700                 20              0
+800                 21              0
+900                 21              0
+1000                21              0
+sort ascending
+data             height            time           
+10                  9               0
+100                 99              0
+200                 199             0
+300                 299             0.005
+400                 398             0.008
+500                 498             0.01
+600                 596             0.013
+700                 694             0.018
+800                 794             0.02
+900                 892             0.023
+1000                991             0.027
+
+sort descending
+data             height            time           
+10                  9               0
+100                 99              0
+200                 199             0
+300                 299             0
+400                 398             0.003
+500                 498             0.01
+600                 596             0.01
+700                 694             0.01
+800                 794             0.01
+900                 892             0.013
+1000                991             0.016
+
+REBALANCE_1
+unsorted
+data             height            time           
+10                  3               0
+100                 6               0
+200                 7               0
+300                 8               0
+400                 8               0
+500                 8               0
+600                 9               0
+700                 9               0
+800                 9               0.01
+900                 9               0.02     
+1000                9               0.02
+             
+sort ascending
+data             height            time           
+10                  3               0
+100                 6               0
+200                 7               0
+300                 8               0
+400                 8               0
+500                 8               0
+600                 9               0
+700                 9               0.01
+800                 9               0.01
+900                 9               0.01
+1000                9               0.01
+
+sort descending
+data             height            time           
+10                  4               0
+100                 6               0
+200                 7               0
+300                 8               0
+400                 8               0
+500                 8               0
+600                 9               0
+700                 9               0.01
+800                 9               0.01
+900                 9               0.02
+1000                9               0.02
+
+REBALANCE_100
+unsorted
+data             height            time           
+10                  5               0
+100                 6               0
+200                 7               0
+300                 8               0
+400                 8               0
+500                 8               0
+600                 9               0    
+700                 9               0
+800                 9               0
+900                 12              0
+1000                11              0
+
+sort ascending
+data             height            time           
+10                  9               0
+100                 6               0
+200                 7               0
+300                 8               0
+400                 106             0
+500                 106             0
+600                 106             0
+700                 105             0
+800                 104             0
+900                 102             0
+1000                101             0
+
+sort descending
+data             height            time           
+10                  9               0
+100                 6               0
+200                 7               0
+300                 8               0
+400                 8               0
+500                 8               0
+600                 106             0
+700                 105             0
+800                 105             0
+900                 102             0
+1000                101             0
+
+REBALANCE_1000
+unsorted
+data             height            time           
+10                  5               0
+100                 11              0
+200                 16              0
+300                 19              0
+400                 19              0
+500                 19              0
+600                 19              0
+700                 20              0
+800                 21              0
+900                 21              0
+1000                9               0
+5000                14              0.01
+
+sort ascending
+data             height            time           
+10                  9               0
+100                 99              0
+200                 199             0
+300                 299             0.007
+400                 398             0.007
+500                 498             0.01
+600                 596             0.01
+700                 694             0.017
+800                 794             0.02
+900                 892             0.023
+1000                9               0.03
+5000                899             0.19
+
+sort descending
+data             height            time           
+10                  9               0
+100                 99              0
+200                 199             0
+300                 299             0
+400                 398             0.007
+500                 498             0.01
+600                 596             0.01
+700                 694             0.01
+800                 794             0.01
+900                 892             0.017
+1000                9               0.02
+5000                870             0.13
+
+RANDOM
+unsorted
+data             height            time           
+10                  5               0
+100                 13              0
+200                 14              0
+300                 18              0
+400                 19              0
+500                 18              0
+600                 19              0
+700                 17              0
+800                 22              0
+900                 24              0
+1000                22              0
+
+sort ascending
+data             height            time           
+10                  4               0
+100                 10              0
+200                 16              0
+300                 17              0
+400                 18              0
+500                 21              0
+600                 18              0
+700                 18              0
+800                 20              0
+900                 21              0
+1000                21              0
+
+sort descending
+data             height            time           
+10                  5               0
+100                 13              0
+200                 14              0
+300                 15              0
+400                 18              0
+500                 20              0
+600                 16              0
+700                 19              0
+800                 20              0
+900                 20              0
+1000                19              0
+
+SPLAY
+unsorted
+data             height            time           
+10                  5               0
+11                  6               0
+12                  5               0
+100                 13              0
+200                 14              0
+300                 16              0
+400                 17              0
+500                 21              0
+600                 22              0
+700                 21              0
+800                 20              0
+900                 19              0
+1000                23              0
+
+sort ascending
+data             height            time           
+10                  9               0
+11                  10              0
+12                  11              0
+100                 99              0
+200                 199             0
+300                 299             0
+400                 399             0
+500                 499             0
+600                 599             0
+700                 699             0
+800                 799             0
+900                 899             0
+1000                999             0
+
+sort descending
+data             height            time           
+10                  9               0
+11                  10              0
+12                  11              0
+100                 99              0
+200                 199             0
+300                 299             0
+400                 399             0
+500                 499             0
+600                 599             0
+700                 699             0
+800                 799             0
+900                 899             0
+1000                999             0
+
+///////////////////////////////////////////////
+Insert Only
+NO_REBALANCE
+unsorted
+data             height            time           
+10                  5               0
+100                 11              0
+200                 16              0
+300                 19              0
+400                 19              0
+500                 19              0
+600                 19              0
+700                 20              0
+800                 21              0
+900                 21              0
+1000                21              0
+
+sort ascending
+data             height            time           
+10                  9               0
+100                 99              0
+200                 199             0
+300                 299             0
+400                 398             0
+500                 498             0.007
+600                 596             0.013
+700                 694             0.02
+800                 794             0.027
+900                 892             0.033
+1000                991             0.04
+
+sort descending
+data             height            time           
+10                  9               0
+100                 99              0
+200                 199             0
+300                 299             0
+400                 398             0
+500                 498             0.003
+600                 596             0.01
+700                 694             0.01
+800                 794             0.013
+900                 892             0.015
+1000                991             0.027
+
+REBALANCE_1
+unsorted
+data             height            time           
+10                  3               0
+100                 6               0
+200                 7               0
+300                 8               0
+400                 8               0
+500                 8               0
+600                 9               0
+700                 9               0
+800                 9               0.01
+900                 9               0.01   
+1000                9               0.02
+
+sort ascending
+data             height            time           
+10                  3               0
+100                 6               0
+200                 7               0
+300                 8               0
+400                 8               0
+500                 8               0
+600                 9               0.005
+700                 9               0.01
+800                 9               0.013
+900                 9               0.017
+1000                9               0.02
+
+sort descending
+data             height            time           
+10                  4               0
+100                 6               0
+200                 7               0
+300                 8               0
+400                 8               0
+500                 8               0
+600                 9               0
+700                 9               0.01
+800                 9               0.01
+900                 9               0.02
+1000                9               0.02
+
+REBALANCE_100
+unsorted
+data             height            time           
+10                  5               0
+100                 6               0
+200                 7               0
+300                 8               0
+400                 8               0
+500                 8               0
+600                 9               0    
+700                 9               0
+800                 9               0
+900                 12              0
+1000                11              0
+
+sort ascending
+data             height            time           
+10                  9               0
+100                 6               0
+200                 7               0
+300                 8               0
+400                 106             0
+500                 106             0
+600                 command terminated by signal 11, for no reason
+700                 105             0
+800                 104             0
+900                 102             0
+1000                101             0.003
+
+sort descending
+data             height            time           
+10                  9               0
+100                 6               0
+200                 7               0
+300                 8               0
+400                 8               0
+500                 8               0
+600                 106             0
+700                 105             0
+800                 105             0
+900                 102             0
+1000                101             0
+
+REBALANCE_1000
+unsorted
+data             height            time           
+10                  5               0
+100                 11              0
+200                 16              0
+300                 19              0
+400                 19              0
+500                 19              0
+600                 19              0
+700                 20              0
+800                 21              0
+900                 21              0
+1000                9               0
+5000                14              0.01
+
+sort ascending
+data             height            time           
+10                  9               0
+100                 99              0
+200                 199             0
+300                 299             0
+400                 398             0.003
+500                 498             0.01
+600                 596             0.013
+700                 694             0.017
+800                 794             0.015
+900                 892             0.023
+1000                9               0.02
+5000                899             0.12
+          
+sort descending
+data             height            time           
+10                  9               0
+100                 99              0
+200                 199             0
+300                 299             0
+400                 398             0
+500                 498             0.01
+600                 596             0.007
+700                 694             0.01
+800                 794             0.013
+900                 892             0.02
+1000                9               0.025
+5000                870             0.087
+
+RANDOM
+unsorted
+data             height            time           
+10                  5               0
+100                 13              0
+200                 14              0
+300                 18              0
+400                 19              0
+500                 18              0
+600                 19              0
+700                 17              0
+800                 22              0
+900                 24              0
+1000                23              0
+
+sort ascending
+data             height            time           
+10                  4               0
+100                 10              0
+200                 16              0
+300                 17              0
+400                 18              0
+500                 21              0
+600                 18              0
+700                 18              0
+800                 20              0
+900                 21              0
+1000                21              0
+
+sort descending
+data             height            time           
+10                  5               0
+100                 13              0
+200                 14              0
+300                 15              0
+400                 18              0
+500                 20              0
+600                 16              0
+700                 19              0
+800                 20              0
+900                 20              0
+1000                19              0
+
+SPLAY
+unsorted
+data             height            time           
+10                  5               0
+11                  6               0
+12                  5               0
+100                 13              0
+200                 14              0
+300                 16              0
+400                 17              0
+500                 21              0
+600                 22              0
+700                 21              0
+800                 20              0
+900                 19              0
+1000                23              0
+
+sort ascending
+data             height            time           
+10                  9               0
+11                  10              0
+12                  11              0
+100                 99              0
+200                 199             0
+300                 299             0
+400                 399             0
+500                 499             0
+600                 599             0
+700                 699             0
+800                 799             0
+900                 899             0
+1000                999             0
+
+sort descending
+data             height            time           
+10                  9               0
+11                  10              0
+12                  11              0
+100                 99              0
+200                 199             0
+300                 299             0
+400                 399             0
+500                 499             0
+600                 599             0
+700                 699             0
+800                 799             0
+900                 899             0
+1000                999             0
+
+the algorithm balances the tree in a different way, 
+- the REBALANCE_1 rebalance the whole tree for every insertion 
+    (rebalanceing cost O(n)), that is the reason why this algorithm 
+    runs the slowest compared to the other when inserting but this 
+    guarantees that the tree will always be balanced 
+    and searching will be faster
+    
+- the REBALANCE_100 rebalance every 100 insertion, 
+  so the height will tend to decrease after 100 insertion.
+
+- the REBALANCE_1000 same with the other rebalance, 
+  except after 1000 insertion, has a really large height before 
+  inserting 1000 node as it is not balanced yet,
+  that is the reason why it is a bit slow 
+  when searching if it has not reached 1000 nodes
+
+- the RANDOM inserts node at different level of the tree with 
+  probability of 1/N, that is why the height keeps changing due to the 
+  randomness of insertion, with this inserton strategy, 
+  we can avoid worst case scenario and get O(log N) behaviour in insertion.
+  
+- the SPLAY tree, its easy to search for recently inserted nodes 
+  because they are kept near the roots  
+  (this is why the height is really tall for degenerate tree and the search are fast)
+  , and average amortisasion cost when inserting is O(log N) and for worst case scenario its O(N).
+  The height also tends to change since nodes would be moved to the root
+ 
+ 
+ =======================================================================
+ HASHTABLE ANALYSIS
+ a. size 85711  , max chain length = 25 
+    size 100000 , max chain length = 36 << not prime
+    size 214283 , max chain length = 16
+    size 400000 , max chain length = 16 << not prime
+    size 400837 , max chain length = 12
+    size 857144 , max chain length = 9  << not prime
+    size 857137 , max chain length = 9
+    -the greater the size, the less the length of the chains as the data
+     has greater chance of being evenly distributed
+    
+ b. -Yes, prime numbers has less collision thus resulting in smaller length
+    -it is illustrated in the HashSatus below
+     Hash Table Stats:
+     Number of slots = 400000
+     Number of items = 857424
+     Chain length distribution
+       Length  #Chains
+            0    53644
+            1   101973
+            2   102409
+            3    71093
+            4    39086
+            5    18632
+            6     7798
+            7     3230
+            8     1294
+            9      509
+           10      208
+           11       79
+           12       27
+           13       10
+           14        5
+           15        2
+           16        1
+     Hash Table Stats:
+     Number of slots = 400837
+     Number of items = 857424
+     Chain length distribution
+      Length  #Chains
+            0    47251
+            1   100881
+            2   107773
+            3    77228
+            4    41365
+            5    17528
+            6     6293
+            7     1845
+            8      546
+            9      101
+           10       24
+           11        1
+           12        1
+          
+c. 857137
+    Hash Table Stats:
+    Number of slots = 857137
+    Number of items = 857424
+    Chain length distribution
+      Length  #Chains
+           0   315092
+           1   315639
+           2   157414
+           3    52728
+           4    13119
+           5     2655
+           6      419
+           7       62
+           8        7
+           9        2
+d.  - ./words2 ~cs2521/public_html/18x1/labs/lab08/places 1048576
+      produces a hash table with many collisions with wide range of length
+    - ./words2 ~cs2521/public_html/18x1/labs/lab08/places 1048573
+      produces a denser hash table with maximum length 20
+      
+      when a bad hashing algorithm is implemented, the performance time will
+      be very slow due to the wide range of chain lengths (O(N) when searching)
+      
+e.  ListSearch and hash are the most costly functions (2000004 and 2000004 calls respectively)
+
+    Flat profile:
+    
+    Each sample counts as 0.01 seconds.
+      %   cumulative   self              self     total           
+     time   seconds   seconds    calls  ms/call  ms/call  name    
+     48.62      0.53     0.53  2000004     0.00     0.00  ListSearch
+     23.85      0.79     0.26  2000004     0.00     0.00  hash
+      7.34      0.87     0.08  1000000     0.00     0.00  HashTableInsert
+      6.42      0.94     0.07 16234189     0.00     0.00  cmp
+      6.42      1.01     0.07    50033     0.00     0.00  ListLength
+      6.42      1.08     0.07    50033     0.00     0.00  dropList
+      0.92      1.09     0.01  1000004     0.00     0.00  HashTableSearch
+      0.00      1.09     0.00   857144     0.00     0.00  ListInsert
+      0.00      1.09     0.00   857144     0.00     0.00  dropItem
+      0.00      1.09     0.00    50033     0.00     0.00  newList
+      0.00      1.09     0.00        1     0.00    70.00  HashTableStats
+      0.00      1.09     0.00        1     0.00    70.00  dropHashTable
+      0.00      1.09     0.00        1     0.00     0.00  newHashTable
+
+     Flat profile:
+     
+     Each sample counts as 0.01 seconds.
+      %   cumulative   self              self     total           
+     time   seconds   seconds    calls  ms/call  ms/call  name    
+     53.92      0.55     0.55  2000004     0.00     0.00  ListSearch
+     26.47      0.82     0.27  2000004     0.00     0.00  hash
+      6.86      0.89     0.07    50039     0.00     0.00  ListLength
+      6.86      0.96     0.07    50039     0.00     0.00  dropList
+      1.96      0.98     0.02  1000000     0.00     0.00  HashTableInsert
+      1.96      1.00     0.02                             main
+      0.98      1.01     0.01 16255244     0.00     0.00  cmp
+      0.98      1.02     0.01  1000004     0.00     0.00  HashTableSearch
+      0.00      1.02     0.00   857144     0.00     0.00  ListInsert
+      0.00      1.02     0.00   857144     0.00     0.00  dropItem
+      0.00      1.02     0.00    50039     0.00     0.00  newList
+      0.00      1.02     0.00        1     0.00    70.00  HashTableStats
+      0.00      1.02     0.00        1     0.00    70.00  dropHashTable
+      0.00      1.02     0.00        1     0.00     0.00  newHashTable
+
+    Flat profile:
+    
+    Each sample counts as 0.01 seconds.
+      %   cumulative   self              self     total           
+     time   seconds   seconds    calls  ms/call  ms/call  name    
+     35.83      0.21     0.21  2000004     0.00     0.00  hash
+     16.67      0.32     0.10  1000000     0.00     0.00  HashTableInsert
+     16.67      0.41     0.10   700000     0.00     0.00  dropList
+     13.33      0.49     0.08  2000004     0.00     0.00  ListSearch
+     10.00      0.56     0.06   700000     0.00     0.00  ListLength
+      1.67      0.56     0.01  2296887     0.00     0.00  cmp
+      1.67      0.57     0.01  1000004     0.00     0.00  HashTableSearch
+      1.67      0.58     0.01        1    10.00   110.00  dropHashTable
+      1.67      0.59     0.01                             HashTableDelete
+      0.83      0.60     0.01        1     5.00     5.00  newHashTable
+      0.00      0.60     0.00   857144     0.00     0.00  ListInsert
+      0.00      0.60     0.00   857144     0.00     0.00  dropItem
+      0.00      0.60     0.00   700000     0.00     0.00  newList
+      0.00      0.60     0.00        1     0.00    60.00  HashTableStats
+
+     %         the percentage of the total running time of the
+    time       program used by this function.
+
+    cumulative a running sum of the number of seconds accounted
+     seconds   for by this function and those listed above it.
+
+     self      the number of seconds accounted for by this
+    seconds    function alone.  This is the major sort for this
+
+f. by using linear probing which handles collisions better and has less
+   space complexity
+
+       

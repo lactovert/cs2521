@@ -1,0 +1,11 @@
+~cs2521/bin/3c -Wall -Werror -std=c99 -g   -c -o dracula.o dracula.c
+~cs2521/bin/3c -Wall -Werror -std=c99 -g -DI_AM_DRACULA -c player.c -o dracPlayer.o
+~cs2521/bin/3c -Wall -Werror -std=c99 -g   -c -o DracView.o DracView.c
+~cs2521/bin/3c -Wall -Werror -std=c99 -g   -c -o GameView.o GameView.c
+~cs2521/bin/3c -Wall -Werror -std=c99 -g   -c -o Map.o Map.c
+~cs2521/bin/3c -Wall -Werror -std=c99 -g   -c -o Places.o Places.c
+~cs2521/bin/3c -rdynamic  dracula.o dracPlayer.o DracView.o GameView.o Map.o Places.o /usr/lib/i386-linux-gnu/libdl.so /lib/i386-linux-gnu/libSegFault.so /usr/lib/i386-linux-gnu/libjansson.so   -o dracula
+~cs2521/bin/3c -Wall -Werror -std=c99 -g   -c -o hunter.o hunter.c
+~cs2521/bin/3c -Wall -Werror -std=c99 -g   -c -o player.o player.c
+~cs2521/bin/3c -Wall -Werror -std=c99 -g   -c -o HunterView.o HunterView.c
+dryrun: couldn't compile hunter; can't proceed.
